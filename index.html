@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do App</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="app.css" />
+  </head>
+
+  <body>
+    <header id="main-header">
+      <div class="container">
+        <h1>Today</h1>
+        <form action="" id="todo-form">
+          <input
+            type="text"
+            name="task-name"
+            placeholder="e.g Buy Groceries"
+            autofocus
+          />
+          <button type="submit">Add Task</button>
+        </form>
+      </div>
+    </header>
+    <section>
+      <div class="container" id="main-content">
+        <ul class="stats">
+          <li>
+            <span>Remaining</span>
+            <span id="remaining-tasks">0</span>
+          </li>
+          <li>
+            <span>completed</span>
+            <span id="completed-tasks">0</span>
+          </li>
+          <li>
+            <span>Total</span>
+            <span id="Total-tasks">0</span>
+          </li>
+        </ul>
+        <ul class="todos">
+
+        </ul>
+      </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p><small>Designed by <a href="/" target="_blank">Asma</a> code by <a href="/">Asma</a></small></p>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
